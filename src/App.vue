@@ -6,7 +6,7 @@
       <br />
       {{ mensaje }}
     </p>
-    <h2 v-bind:class="hard">Es difícil, pero lo lograré</h2>
+    <h2 v-bind:class="hard">Es difícil, .pero lo lograré</h2>
     <button @click="saludo()">Saludo</button>
   </div>
   <hr>
@@ -19,8 +19,9 @@
     <button v-on:click="restar()">
       restar
     </button>
-    <p v-show="quitar">sumale un ppoco</p>
+    <p v-show="quitar">sumale un poco.</p>
   </div>
+ 
 </template>
 
 <style scoped>
@@ -77,6 +78,7 @@ span {
 </style>
 
 <script setup>
+
 const curso = 'Vue';
 const carrera = ['Vue', 'JS', 'React', 'SQL'];
 const carrer = 'color:green;font-size:4em';
@@ -109,4 +111,5 @@ const restar = () => {
     quitar.value=(true)
   }
 }
+
 </script>

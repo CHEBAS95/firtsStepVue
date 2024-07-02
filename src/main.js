@@ -2,6 +2,6 @@
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import app2 from './classReact.vue'
+import app2 from './seccion.vue'
 
 createApp(App).mount('#app')
